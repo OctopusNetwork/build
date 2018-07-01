@@ -5,6 +5,6 @@ include $(rootdir)/build/project/$(project).mk
 include $(rootdir)/build/common/common.mk
 
 all: $(compilemodules)
-clean:
+clean: $(cleanmodules)
 sync: preparedir $(syncmodules)
-info:
+info: $(infomodules)
