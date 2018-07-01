@@ -1,1 +1,1 @@
-submodules += 3rd
+submodules = 3rd libonplatform
