@@ -3,3 +3,4 @@ include $(rootdir)/build/configs/dirs.mk
 include $(rootdir)/build/configs/submodules.mk
 
 include $(rootdir)/build/utils/syncmodules.mk
+include $(rootdir)/build/utils/compilemodules.mk

@@ -7,3 +7,4 @@ $(syncmodules):
 		cd $(sourcedir)/$(@:sync-%=%); git pull;						\
 	fi
 	@cd $(sourcedir)/$(@:sync-%=%); git checkout dev
+	@cd $(sourcedir)/$(@:sync-%=%); make sync
