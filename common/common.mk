@@ -8,4 +8,6 @@ include $(rootdir)/build/utils/utilities.mk
 include $(rootdir)/build/utils/syncmodules.mk
 include $(rootdir)/build/utils/compilemodules.mk
 include $(rootdir)/build/utils/infomodules.mk
+include $(rootdir)/build/utils/installmodules.mk
+include $(rootdir)/build/utils/testmodules.mk
 include $(rootdir)/build/utils/cleanmodules.mk
