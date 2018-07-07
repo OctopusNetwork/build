@@ -1,5 +1,12 @@
 CXXCOMPILE = $(CROSSPREFIX)g++ -c
 CCOMPILE = $(CROSSPREFIX)gcc -c
 
+CC = $(CROSSPREFIX)gcc
+CXX = $(CROSSPREFIX)g++
+
+HOSTCXX = g++
+HOSTCC = gcc
+HOSTAR = ar
+
 CP = cp
 MKDIR = mkdir

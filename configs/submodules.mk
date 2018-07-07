@@ -1,1 +1,1 @@
-submodules = 3rd libonplatform
+submodules = 3rd libonlogger libonplatform
