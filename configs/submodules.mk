@@ -1,1 +1,2 @@
-submodules = 3rd libonlogger libonplatform
+submodule ?= 3rd libonlogger libonplatform libonencoding
+submodules = $(submodule)
