@@ -2,7 +2,7 @@
 clean: incclean binclean libclean
 
 incclean:
-	$(RM) -rf $(incdir)/$(MODULE)
+	$(RM) -rf $(incdir)/$(MODULENAME)
 
 binclean::
 
